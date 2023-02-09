@@ -37,7 +37,7 @@ print(my_tweet)
 print(  len("visited_countries"))
 
 #3.7
-my_tweet["visited_countries"] = "CH"
+my_tweet["visited_countries"].append('CH') 
 print(my_tweet)
 
 #3.8
@@ -46,3 +46,4 @@ print( "US" in my_tweet.values())
 #3.9
 my_tweet['coordinates'] = (-81, 45)
 print(my_tweet)
+
